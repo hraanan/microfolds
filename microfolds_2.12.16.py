@@ -148,6 +148,7 @@ for line in idx:
                         io.set_structure(structure)
                         #print('/home/hraanan/MicrofoldsPDBs/'+microfold_dir+'/'+microfold_name+'.pdb', MicroSelect())                        
                         io.save('/home/hraanan/MicrofoldsPDBs/'+microfold_dir+'/'+microfold_name+'.pdb', MicroSelect())
+                        
     except:
         e = sys.exc_info()[0]
         Error_out.write('xxx\n')
